@@ -1,0 +1,40 @@
+body{
+    background-color: #8c7ae6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.klawiatura{
+    position: absolute;
+    display: flex;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.bialy{
+    background-color: white;
+    height: 200px;
+    position: relative;
+    border: 1px solid #8c7ae6;
+    width: 80px;
+}
+.czarny{
+    z-index: 1;
+    position: relative;
+    transform: translate(-50%);
+    left: 70px;
+    background-color: black;
+    margin-left: -70px;
+    margin-right: 35px;
+    width: 35px;
+    height: 100px;
+}
+
+.bialy:active{
+    opacity: .9;
+}
+.czarny:active{
+    opacity: .9;
+}
+
